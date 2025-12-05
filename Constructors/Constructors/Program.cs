@@ -2,23 +2,32 @@ private static void Run()
 {
     Quiz quiz = new Quiz(10);
 
-  
-    QuizVraag q0 = new QuizVraag("2 + 2 = ?", "4");
-    quiz.VoegVraagToeOpIndex(0, q0);
+    quiz.VoegVraagToeOpIndex(0, "2 + 2 = ?", "4");
+    quiz.VoegVraagToeOpIndex(1, "What arcade game was called Puckman in Japan?", "Pac-Man");
+    quiz.VoegVraagToeОпIndex(2, "What is the first video game?", "Pong");
+    quiz.VoegVraagToeОпIndex(3, "Holy franchise AI names? (Beyoncé song)", "Halo");
+    quiz.VoegVraagToeОпIndex(4, "Wat drink je uit een glas?", "Water");
+    quiz.VoegVraagToeОпIndex(5, "Hoeveel dagen in een week?", "7");
+    quiz.VoegVraagToeОпIndex(6, "Welke maand is de eerste?", "Januari");
+    quiz.VoegVraagToeОпIndex(7, "Welke taal praten ze in NL?", "Nederlands");
+    quiz.VoegVraagToeОпIndex(8, "Wat eet je met kaas?", "Brood");
+    quiz.VoegVraagToeОпIndex(9, "Welke engine maakte EPIC Games?", "Unreal Engine");
+
+    Console.WriteLine("==== QUIZ START =====");
+
+    /
+    for (int i = 0; i < 10; i++)
+    {
+        quiz.StelVraag(i);
+        Console.WriteLine();
+    }
 
    
-    quiz.VoegVraagToeOpIndex(1, "What arcade game was called Puckman in Japan?", "Answer: Pac-Man");
-    quiz.VoegVraagToeOpIndex(2, "What is thought to be the first video game, created in 1958 and becoming popular in the 1970s?", "Pong");
-    quiz.VoegVraagToeOpIndex(3, "Mendicant Bias and Offensive Bias are fictional AIs in what "holy" video game franchise that shares its name with a Beyonce´ song?", " Halo");
-    quiz.VoegVraagToeOpIndex(4, "Wat drink je uit een glas?", "Water");
-    quiz.VoegVraagToeOpIndex(5, "Hoeveel dagen in een week?", "7");
-    quiz.VoegVraagToeOpIndex(6, "Welke maand is de eerste?", "Januari");
-    quiz.VoegVraagToeOpIndex(7, "Welke taal praten ze in NL?", "Nederlands");
-    quiz.VoegVraagToeOpIndex(8, "What is the name of the twin brother of Solid Snake, the protagonist of the Metal Gear franchise?", "Liquid Snake");
-    quiz.VoegVraagToeOpIndex(9, "The company that created Fortnite, EPIC, also created a game engine that is licensed to other game creators named what?", "Unreal Engine");
+    int score = quiz.BerekenScore();
 
-
-    
+    Console.WriteLine("===== QUIZ AFGELOPEN =====");
+    Console.WriteLine($"Jouw score: {score} / 10");
 }
+
 
 
