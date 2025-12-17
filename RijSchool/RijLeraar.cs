@@ -1,6 +1,6 @@
 internal class RijLeraar
 {
-    internal string naam;
+    internal string naam = string.Empty;
     internal int leeftijd;
     internal bool zzp;
 }

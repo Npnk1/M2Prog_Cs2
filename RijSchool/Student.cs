@@ -1,9 +1,9 @@
 internal class Student
 {
-    internal string naam;
+    internal string naam = string.Empty;
     internal int leeftijd;
-    internal LesPakket lesPakket;
-    internal RijLeraar leraar;
-    internal TheorieTest theorieTest;
-    internal RijTest rijTest;
+    internal LesPakket lesPakket = new();
+    internal RijLeraar? leraar;
+    internal TheorieTest? theorieTest;
+    internal RijTest? rijTest;
 }
