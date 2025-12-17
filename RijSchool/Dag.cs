@@ -1,4 +1,7 @@
-class Dag
+using System;
+
+internal class Dag
 {
-    public string Naam { get; set; } = "";
+    internal DateTime datum;
+    internal LesUur[] lesuren;
 }

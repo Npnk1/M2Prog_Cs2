@@ -1,6 +1,8 @@
+using System;
 
-
-class TheorieTest
+internal class TheorieTest
 {
-    public bool Geslaagd { get; set; }
+    internal int aantalFouten;
+    internal bool gehaald;
+    internal DateTime afnameDatum;
 }

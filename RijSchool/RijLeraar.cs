@@ -1,4 +1,6 @@
-class RijLeraar
+internal class RijLeraar
 {
-    public string Naam { get; set; } = "";
+    internal string naam;
+    internal int leeftijd;
+    internal bool zzp;
 }

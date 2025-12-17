@@ -1,5 +1,7 @@
-class LesPakket
+internal class LesPakket
 {
-    public int AantalLessen { get; set; }
-    public double Prijs { get; set; }
+    internal int urenGekocht;
+    internal int urenVerbruikt;
+    internal int examenPogingen;
+    internal bool automaat;
 }

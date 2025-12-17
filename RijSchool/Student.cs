@@ -1,4 +1,9 @@
-class Student
+internal class Student
 {
-    public string Naam { get; set; } = "";
+    internal string naam;
+    internal int leeftijd;
+    internal LesPakket lesPakket;
+    internal RijLeraar leraar;
+    internal TheorieTest theorieTest;
+    internal RijTest rijTest;
 }

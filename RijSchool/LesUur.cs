@@ -1,4 +1,7 @@
-class LesUur
+internal class LesUur
 {
-    public int Uur { get; set; }
+    internal int tijd;
+    internal Student student;
+    internal RijLeraar rijLeraar;
+    internal Auto auto;
 }

@@ -1,5 +1,7 @@
-class Auto
+internal class Auto
 {
-    public string Kenteken { get; set; } = "";
-    public string Model { get; set; } = "";
+    internal bool automaat;
+    internal string merk;
+    internal string kenteken;
+    internal int kilometerStand;
 }

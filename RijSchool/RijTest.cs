@@ -1,4 +1,7 @@
-class RijTest
+using System;
+
+internal class RijTest
 {
-    public bool Geslaagd { get; set; }
+    internal bool gehaald;
+    internal DateTime afnameDatum;
 }
