@@ -1,0 +1,14 @@
+C:\Users\nikit\OneDrive\Документы\ForHerhaling\ForHerhaling\bin\Debug\net9.0\ForHerhaling.exe
+C:\Users\nikit\OneDrive\Документы\ForHerhaling\ForHerhaling\bin\Debug\net9.0\ForHerhaling.deps.json
+C:\Users\nikit\OneDrive\Документы\ForHerhaling\ForHerhaling\bin\Debug\net9.0\ForHerhaling.runtimeconfig.json
+C:\Users\nikit\OneDrive\Документы\ForHerhaling\ForHerhaling\bin\Debug\net9.0\ForHerhaling.dll
+C:\Users\nikit\OneDrive\Документы\ForHerhaling\ForHerhaling\bin\Debug\net9.0\ForHerhaling.pdb
+C:\Users\nikit\OneDrive\Документы\ForHerhaling\ForHerhaling\obj\Debug\net9.0\ForHerhaling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikit\OneDrive\Документы\ForHerhaling\ForHerhaling\obj\Debug\net9.0\ForHerhaling.AssemblyInfoInputs.cache
+C:\Users\nikit\OneDrive\Документы\ForHerhaling\ForHerhaling\obj\Debug\net9.0\ForHerhaling.AssemblyInfo.cs
+C:\Users\nikit\OneDrive\Документы\ForHerhaling\ForHerhaling\obj\Debug\net9.0\ForHerhaling.csproj.CoreCompileInputs.cache
+C:\Users\nikit\OneDrive\Документы\ForHerhaling\ForHerhaling\obj\Debug\net9.0\ForHerhaling.dll
+C:\Users\nikit\OneDrive\Документы\ForHerhaling\ForHerhaling\obj\Debug\net9.0\refint\ForHerhaling.dll
+C:\Users\nikit\OneDrive\Документы\ForHerhaling\ForHerhaling\obj\Debug\net9.0\ForHerhaling.pdb
+C:\Users\nikit\OneDrive\Документы\ForHerhaling\ForHerhaling\obj\Debug\net9.0\ForHerhaling.genruntimeconfig.cache
+C:\Users\nikit\OneDrive\Документы\ForHerhaling\ForHerhaling\obj\Debug\net9.0\ref\ForHerhaling.dll
